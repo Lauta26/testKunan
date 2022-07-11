@@ -78,4 +78,24 @@ es el comando que me vincula y fusiona los cambios realizados entre dos ramas di
 verificar que no queden commits inconclusos 
 ir a la rama con la que queremos hacer la fusión
 
+git remote
+
+me sirve para elegir el repositorio remoto con el que voy a trabajar en este proyecto.
+
+git remote add le pones origin y pegas el link q te da github
+
+git remote -v 
+me muestra el repositorio y la url a la que esta asignado
+
+git push 
+
+sirve para empujar mi codigo desde el editor hasta el repositorio remoto.
+me pide dos parametros principales el nombre de mi remoto (origin) 
+y la rama que quiero subir
+
+git pull
+
+me sirve para descargar el contenido nuevo que hay en el repositorio, muy importante a la hora de trabajar en equipo.
+ademas hay que especificar que rama porque si hubo cambios sobre esa rama vsc va a buscar fusionarlas mergearlas automáticamente.
+
 

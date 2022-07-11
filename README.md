@@ -75,6 +75,8 @@ git merge
 
 es el comando que me vincula y fusiona los cambios realizados entre dos ramas diferentes de un mismo proyecto, no queremos que ninguna ruta o rama esté por delante de otra, es decir que se sincronicen.
 
+Por defecto genera un fast forward, generando un merge rapido y eficaz, si hay discrepancia entre las ramas que se quieren fusionar, manualmente el editor le dice cuales son las diferencias entre cada rama para que el diseñador decida que se queda y que se va.
+
 verificar que no queden commits inconclusos 
 ir a la rama con la que queremos hacer la fusión
 
@@ -98,4 +100,15 @@ git pull
 me sirve para descargar el contenido nuevo que hay en el repositorio, muy importante a la hora de trabajar en equipo.
 ademas hay que especificar que rama porque si hubo cambios sobre esa rama vsc va a buscar fusionarlas mergearlas automáticamente.
 
+
+
+git log --oneline --graph --all
+muestra con diferentes colores los cambios realizados por multiples usuarios, vinculando al usuario con un hash y diversos colores que muestran la relación que hay entre cada linea de codigo.
+cada * es un commit y las descripciones que se les agregan. Al final todas se juntan.
+facil acceso visual a la informacion de las modificaciones realizadas sobre el proyecto
+
+git stash
+
+permite guardar de forma temporal un cambio realizado en nuestro proyecto sin la necesidad de utilizar commit.
+Evitar commits de codigos intermedios sin terminar 
 

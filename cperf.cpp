@@ -5,7 +5,7 @@ using namespace std;
 
 int main (){
 	int num, cuadrado;
-	cout<<"Ingrese el número: "<<endl;
+	cout<<"Ingrese el nï¿½mero: "<<endl;
 	cin>>num;
 	
 	cuadrado=sqrt(num);
@@ -15,6 +15,19 @@ int main (){
 		else{
 		cout<<"El numero ingresado no es cuadrado"<<endl;
 	}
+
+		if (cuadrado*cuadrado=num){
+		cout<<"El numero ingresado es cuadrado"<<endl;}
+		else{
+		cout<<"El numero ingresado no es cuadrado"<<endl;
+	}
+		if (cuadrado*cuadrado=num){
+		cout<<"El numero ingresado es cuadrado"<<endl;}
+		else{
+		cout<<"El numero ingresado no es cuadrado"<<endl;
+	}
+	
+	
 	
 	
 	

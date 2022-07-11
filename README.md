@@ -12,6 +12,24 @@ Git add
 
 Permite pasar los archivos a una etapa de staging o de preparación para hacer un comit o crear una nueva versión de nuestro código.
 
+git add. 
+
+es otra forma de agregar un archivo pero, ahora los puedo agregar dandole la dirección donde están ubicados esos archivos, siempre y cuando la ubicación esté en el repositorio.
+
+en realidad si mandas git add. agrega todos los archivos que no estaban siendo trackeados.
+
+
+git add patch
+
+me sirve para agregar una dirección o ruta, por pedazos para no crear un conflicto de commits a la hora de trabajar en equipo.
+git add nombrearchivo.formato --patch
+
+me abre un display
+que marca las stages o etapas del código
+
+image.png
+
+
 git status
 
 nos dice en que rama estas, despues marca el commit, es decir lo que se va a hacer, en este caso es agregar el new file 
@@ -20,4 +38,25 @@ git commit
  
 
 confirmar una nueva versión del código que está en espera, los que se veían con git status, ahora los vamos a realizar o a cometer.
+
+git diff 
+
+sirve para ver las diferencias entre el archivo en el ultimo commit y el archivo ya modificado.
+
+git log 
+
+nos muestra el historial de commits realizados, tambien se puede ver poniendo -- oneline
+tira una respuesta más resumida de lo que se realizó
+
+git log --stat
+
+muestra la cantidad de inserciones y eliminaciones en cada commit
+
+git log -p 
+
+muestra los detalles por cada commit ojo con esto porque abre un monton de cosas jaja
+
+git branch
+
+
 

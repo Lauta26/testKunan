@@ -12,3 +12,12 @@ Git add
 
 Permite pasar los archivos a una etapa de staging o de preparación para hacer un comit o crear una nueva versión de nuestro código.
 
+git status
+
+nos dice en que rama estas, despues marca el commit, es decir lo que se va a hacer, en este caso es agregar el new file 
+
+git commit
+ 
+
+confirmar una nueva versión del código que está en espera, los que se veían con git status, ahora los vamos a realizar o a cometer.
+

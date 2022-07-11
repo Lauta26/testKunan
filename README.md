@@ -58,5 +58,24 @@ muestra los detalles por cada commit ojo con esto porque abre un monton de cosas
 
 git branch
 
+muestra las ramas activas que tiene nuestro proyecto
+en verde muestra sobre la que estoy trabajando y si escribo git branch algo, crea una nueva branch con el nombre algo
+
+
+git checkout
+
+uso checkout para cambiar de rama entre las ya existentes (git checkout rama a la que quiero moverme)
+
+si pongo git checkout -b algo
+
+agrega una branch nueva y nos lleva ahí
+
+
+git merge
+
+es el comando que me vincula y fusiona los cambios realizados entre dos ramas diferentes de un mismo proyecto, no queremos que ninguna ruta o rama esté por delante de otra, es decir que se sincronicen.
+
+verificar que no queden commits inconclusos 
+ir a la rama con la que queremos hacer la fusión
 
 

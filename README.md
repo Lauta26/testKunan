@@ -103,6 +103,7 @@ ademas hay que especificar que rama porque si hubo cambios sobre esa rama vsc va
 
 
 git log --oneline --graph --all
+
 muestra con diferentes colores los cambios realizados por multiples usuarios, vinculando al usuario con un hash y diversos colores que muestran la relación que hay entre cada linea de codigo.
 cada * es un commit y las descripciones que se les agregan. Al final todas se juntan.
 facil acceso visual a la informacion de las modificaciones realizadas sobre el proyecto

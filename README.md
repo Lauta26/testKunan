@@ -135,3 +135,24 @@ git revert agrega los cambios que sacamos en el commit  no elimina el commit, so
 
 git reset
 
+hace lo mismo que revert pero necesita del hash
+
+git reset --hard hash
+
+pero de ahi no muestra el historialllll ;)
+tener cuidado al hacerlo sobre repositorios centrales.
+
+
+git commit --ammend
+
+agrega cambios a los commits que todavia no se realizaron, tanto eliminados como agregados
+para consolidarlo en uno solo para no tener commits innecesarios
+agrega datos eliminados al ultimo commit que todavia no se ejecutó
+
+git rebase
+
+git rebase y el nombre de la otra rama 
+colocar commits sin la necesidad que aparezcan las ramas adicionales, se genera un arbol lineal.
+
+hace una especie de merge pero a todos los commits que tenemos en una rama los pone en otra, porque cuando se ve el arbol de trabajo correspondiente al proyecto, muestra todos los merges al mismo nivel en vez de hacer relaciones y rayas.
+

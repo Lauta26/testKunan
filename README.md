@@ -112,3 +112,26 @@ git stash
 permite guardar de forma temporal un cambio realizado en nuestro proyecto sin la necesidad de utilizar commit.
 Evitar commits de codigos intermedios sin terminar 
 
+una vez que me muevo a una rama de prueba que no interfiera con la main, uso
+
+git stash pop
+
+me copia eso que stashie en la rama elegida
+
+
+git checkout <hash>
+
+puedo hacer una copia desde git log oneline utilizando el hash que nos brinda ahí
+
+git checkout y un codigo 
+
+para verificar si es que en ese momento funcionaba mi codigo y verificar las diferencias entre el main que no funciona y la que si, la del hash.
+
+git revert
+
+como eliminar un commit
+para no mandar moco con la gente que estoy trabajjando gg
+git revert agrega los cambios que sacamos en el commit  no elimina el commit, solo recupera los cambios,es decir, no borra el historial
+
+git reset
+
